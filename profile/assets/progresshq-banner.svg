@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ProgressHQ — Building for better training</title>
+  <desc id="desc">A dark banner with teal ascending steps, representing steady progress.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#08080c"/>
+      <stop offset="1" stop-color="#15151f"/>
+    </linearGradient>
+    <linearGradient id="steps" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#009688"/>
+      <stop offset="1" stop-color="#00d4c2"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e2e2f0" stroke-opacity=".04"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="16" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+  <rect x="56" y="54" width="36" height="5" rx="2.5" fill="#00d4c2"/>
+  <text x="56" y="112" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" letter-spacing="-1" fill="#e2e2f0">ProgressHQ<tspan fill="#00d4c2">.</tspan></text>
+  <text x="56" y="191" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#ffffff">Building for</text>
+  <text x="56" y="248" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#ffffff">better training.</text>
+  <text x="56" y="303" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#a0a0c0">Human expertise. Thoughtful software. Steady progress.</text>
+  <g fill="url(#steps)">
+    <rect x="830" y="247" width="64" height="56" rx="8" opacity=".35"/>
+    <rect x="918" y="183" width="64" height="120" rx="8" opacity=".65"/>
+    <rect x="1006" y="103" width="64" height="200" rx="8"/>
+  </g>
+  <path d="M830 202L950 105L1054 52" fill="none" stroke="#00d4c2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+  <circle cx="1054" cy="52" r="5" fill="#00d4c2"/>
+</svg>
